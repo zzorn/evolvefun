@@ -1,15 +1,8 @@
 package org.genefun.script
 
+import list.Element
+
 /**
  * 
  */
-trait Func {
-
-  def parameters
-
-  def parameterTypes: List[Type]
-  def resultType: Type
-
-  def eval: Value
-
-}
+trait Func extends Element
